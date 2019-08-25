@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+   "extends": ["standard", "standard-jsx"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+        "semi": "error",
+        "eqeqeq": ["error", "smart"],
+        "no-debugger": "off",
+        "space-before-function-paren": [0, "always"],
+    }
+}
